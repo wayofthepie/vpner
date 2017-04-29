@@ -6,7 +6,8 @@ This repository contains
   * A `docker`image to wrap it all up.
 
 # Openconnect On The Host
-If you just want to run openconnect, replacing your use of AnyConnect, the value of
+If you just want to run openconnect, replacing your use of AnyConnect you first need to
+update `CSD_HOSTNAME` in [csd.sh](csd.sh). The value of
 `CSD_HOSTNAME` is `VPN_URL`, replace this with your VPN's url.
 ```
 CSD_HOSTNAME=my-vpn.com
