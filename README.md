@@ -41,7 +41,7 @@ for your correct credentials. Once you are logged in, you can enter the containe
 `docker exec -ti vpner bash` and ping a host on your vpn.
 
 ## Host Through Container Routing
-The container will now allow forwading through it along the `tun` device that `openconnect`
+The container will now allow forwading through it and then along the `tun` device that `openconnect`
 sets up. The last thing you need to do to get the host access to the VPN is to set up a
 route through the container. Run the following to get the IP of the container:
 
