@@ -46,7 +46,7 @@ sets up. The last thing you need to do to get the host access to the VPN is to s
 route through the container. Run the following to get the IP of the container:
 
 ```
-$ docker inspect --format '{{ .NetworkSettings.IPAddress }}' jolly_wiles
+$ docker inspect --format '{{ .NetworkSettings.IPAddress }}' vpner
 172.17.0.2
 ```
 Finally, set up a route:
